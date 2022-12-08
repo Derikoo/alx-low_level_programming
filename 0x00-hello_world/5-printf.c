@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - prints the phrase with proper grammar,
- * but the outcome is a piece of art,
- * Returns: Always if exited properly, non-zero otherwise
+ * main - Entry point
+ *
+ * Description - "with proper grammar, but the outcome is a piece of art,"
+ *
+ * Returns: Always 0 (success)
  */
 int main(void)
 {
