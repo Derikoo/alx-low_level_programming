@@ -17,11 +17,11 @@ int main(void)
 	{
 	for (z = d + 1; z <= '9'; z++)
 	{
-	if ((b != d) != z)
+	if ((d != b) != z)
 	putchar(b);
 	putchar(d);
 	putchar(z);
-	if (d == '7' && z == '8')
+	if (b == '7' && d == '8')
 	continue;
 	putchar(',');
 	putchar(' ');
